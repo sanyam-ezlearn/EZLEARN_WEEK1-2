@@ -1,5 +1,7 @@
 '''Write a function which extracts 
 pairs of the same integers from a list'''
+
+
 def same_int(l):
   v=set()
   res=[]
