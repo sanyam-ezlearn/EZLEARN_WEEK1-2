@@ -13,16 +13,7 @@ She took an array of N numbers called AR and decides to find the score of
 this array. Your task is to find the Score of the AR. Since this value can be 
 very large return the result modulo 10^9 + 7'''
 def fun(a, b):
-    """
-    Custom function that takes two integers as input and returns their bitwise operation result.
     
-    Parameters:
-    a (int): The first integer.
-    b (int): The second integer.
-    
-    Returns:
-    int: The result of the bitwise operation.
-    """
     return a + b - 2 * (a & b)
 
 def calculate_score():
@@ -47,6 +38,5 @@ def calculate_score():
                 score %= 10**9 + 7
 
     return score
-
-# Example usage
+#input statement
 print(calculate_score())
